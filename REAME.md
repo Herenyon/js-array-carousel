@@ -4,7 +4,7 @@ creo un let valoreBottoni = 0
 
 creo un let immagini = '' per poter metterci mettere le immagini del mio array più avanti
 
-creo un const incrementoBtn = document.getElementByIt(classe freccia in su) e un const decrementoBtn = document.getElementByIt(classe freccia in giù)
+creo un const incrementoBtn = document.getElementById(classe freccia in su) e un const decrementoBtn = document.getElementById(classe freccia in giù)
 
 creo un for( let i = 0; i <= arrayImg.length; i++) con all'interno un immagini += `<div class="img"><img src="img/${arrayImg[i]}"></div>` così da poter inserire tutte le immagini dell'array nell'html
 
